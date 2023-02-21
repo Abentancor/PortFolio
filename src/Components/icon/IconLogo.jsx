@@ -6,7 +6,7 @@ const IconLogo = () => {
 	<>
 
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="90" height="" viewBox="0 0 193 232" enable-background="new 0 0 193 232" xml:space="preserve">
+	 width="90" viewBox="0 0 193 232" enable-background="new 0 0 193 232" xml:space="preserve">
 <g>
 	<g id="XMLID_1_">
 		<g>
