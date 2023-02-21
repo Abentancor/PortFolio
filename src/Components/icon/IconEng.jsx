@@ -2,7 +2,7 @@ import React from 'react'
 
 const IconEng = () => {
   return (
-    <img src="public\Iconeng.png" alt="" className="h-5 "/>
+    <img src="/assets/Iconeng.png" alt="" className="h-5 "/>
   )
 }
 

@@ -36,20 +36,20 @@ const About = () => {
     <>
     <main style={{webkitTextStroke: '0.5px black'}} className='p-2 text-justify bg-cyan-300 bg-opacity-10 backdrop-blur-sm rounded-xl border border-cyan-100 drop-shadow-lg tracking-wide md:m-auto mx-4 font-semibold md:grid grid-cols-10  md:w-3/4 text-white '>
    
-    <img src="src\assets\Foto.jpg" className='h-24 rounded-lg ' alt="" />
+    <img src="\assets\Foto.jpg" className='h-24 rounded-lg ' alt="" />
       <p className=' p-2 col-span-9  mb-2 border-b-2'>{sections.about[language]}
         <p className='col-span-10 rounded-md '>{sections.jobs[language]}</p>
       </p>
 
       <p className=' col-span-8 p-2 rounded-md'>{sections.education[language]}</p>
-      <img src="src\assets\yofondoVSC.jpeg" className='rounded-xl col-span-2' alt="" />
+      <img src="\assets\yofondoVSC.jpeg" className='rounded-xl col-span-2' alt="" />
       <div className='col-span-10 py-2 border-b-2'>
           <Carrousel />
       </div>
 
       <p className='col-span-10 p-2 text-center mb-2 border-b-2'>{sections.motivation[language]}</p>
 
-      <img src="src\assets\Sin título.png" className='rounded-xl h-36 col-span-2' alt="" />
+      <img src="\assets\Sin título.png" className='rounded-xl h-36 col-span-2' alt="" />
       <p className='col-span-8 p-2 rounded-md '>{sections.languages[language]}</p>
 
     </main>
