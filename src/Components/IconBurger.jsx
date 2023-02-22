@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import ButtonDark from './ButtonDark';
 import LanguageSelector from './LanguageSelector';
 import { LanguageContext } from '../Context/LanguageContext';
+import PDFDown from './PDFDown';
 
 const IconBurger = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -37,6 +38,7 @@ const IconBurger = () => {
         <div className=" mr-4 fixed items-center right-0 top-10 text-right flex flex-col z-10  p-2 gap-2 mt-12 bg-slate-900 bg-opacity-90 ring ring-cyan-300 rounded-lg ">
             <LanguageSelector/>
             <ButtonDark/>
+            <PDFDown/>
             <NavLink to='/about' className='text-cyan-400 font-semibold text-xl hover:scale-110 dark:hover:text-white transition-all ease-in-out duration-500' >{language === 'en'
           ? 'About'
           : language === 'es'

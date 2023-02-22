@@ -5,6 +5,7 @@ import ButtonDark from "./ButtonDark"
 import IconLogo from "./icon/IconLogo";
 import IconBurger from "./IconBurger"
 import LanguageSelector from "./LanguageSelector"
+import PDFDown from "./PDFDown";
 
 const Navbar = () => {
 
@@ -32,6 +33,7 @@ const Navbar = () => {
           : language === 'es'
           ? 'Contacto'
           : 'お問い合わせ'}</NavLink>
+          <PDFDown code={language}/>
          <ButtonDark/>
           <LanguageSelector/>
         </nav>
