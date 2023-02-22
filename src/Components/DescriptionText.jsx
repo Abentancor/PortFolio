@@ -19,7 +19,7 @@ const DescriptionText = ({code}) => {
           summary="初めまして、私はエンジェルと申します。私はフロントエンドウェブ開発者です。"
           break;
         }
-        return <p style={{webkitTextStroke: '0.8px black'}} className="text-white text-justify lg:order-last order-first  md:block md:text-lg font-bold md:h-full mt-8 px-4 py-1 bg-cyan-400 bg-opacity-10 backdrop-blur-sm rounded drop-shadow-lg tracking-wide">{window.innerWidth < 768 ? summary : text}</p>;
+        return <p style={{webkitTextStroke: '0.7px black'}} className="text-white text-justify lg:order-last order-first  md:block md:text-lg font-bold md:h-full mt-8 px-4 py-1 bg-cyan-400 bg-opacity-10 backdrop-blur-sm rounded drop-shadow-lg tracking-wide">{window.innerWidth < 768 ? summary : text}</p>;
       }
 
 

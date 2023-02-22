@@ -14,7 +14,7 @@ const LanguageSelector = () => {
   return (
     <div className="text-center">
       <label
-        className="mb-2 font-medium text-sm text-gray-500 hidden md:block"
+        className="mb-2 font-medium text-sm text-gray-600 hidden md:block"
         htmlFor="language"
       >
         {language === 'en'
@@ -26,7 +26,7 @@ const LanguageSelector = () => {
         <div className="flex flex-row-reverse gap-2 items-center p-1  border-2 border-cyan-400 rounded-lg ">
           <FlagsIcons code={language} />
       <select
-        className="block w-full bg-transparent rounded-lg text-gray-500 py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
+        className="block w-full bg-transparent rounded-lg text-gray-600 py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
         id="language"
         value={language}
         onChange={handleLanguageChange}

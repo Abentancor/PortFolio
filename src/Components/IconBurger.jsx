@@ -9,12 +9,12 @@ const IconBurger = () => {
     const { language, changeLanguage } = useContext(LanguageContext);
 
     return (
-      <div className="relative inline-block sm:hidden ">
+      <div className="relative inline-block sm:hidden  bg-slate-900 bg-opacity-20 border-3 ring ring-cyan-300  rounded-lg ">
         <button
           className="flex items-center p-2 text-cyan-500 hover:text-gray-700 focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
         >
-          <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none">
+          <svg className="w-6 h-6" stroke='' viewBox="0 0 24 24" fill="none">
             <path
               className={`${
                 isOpen ? 'hidden' : 'block'
@@ -34,16 +34,16 @@ const IconBurger = () => {
             isOpen ? 'block' : 'hidden'
           } mr-4 absolute mt-2 py-2 z-40 bg-white rounded-lg shadow-xl`}
         >
-        <div className=" mr-4 fixed items-center right-0 top-10 text-right flex flex-col z-10  px-6 gap-2 mt-6">
+        <div className=" mr-4 fixed items-center right-0 top-10 text-right flex flex-col z-10  p-2 gap-2 mt-12 bg-slate-900 bg-opacity-90 ring ring-cyan-300 rounded-lg ">
             <LanguageSelector/>
             <ButtonDark/>
             <NavLink to='/about' className='text-cyan-400 font-semibold text-xl hover:scale-110 dark:hover:text-white transition-all ease-in-out duration-500' >{language === 'en'
-          ? 'about'
+          ? 'About'
           : language === 'es'
           ? 'Sobre mi'
           : 'について'}</NavLink>
             <NavLink to='/contact' className='text-cyan-400 font-semibold text-xl hover:scale-110 dark:hover:text-white transition-all ease-in-out duration-500'>{language === 'en'
-          ? 'contact'
+          ? 'Contact'
           : language === 'es'
           ? 'Contacto'
           : 'お問い合わせ'}</NavLink>
