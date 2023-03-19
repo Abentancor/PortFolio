@@ -3,6 +3,8 @@ import Slider from "react-slick";
 import IconBoot from '../icon/IconBoot';
 import IconCSS from '../icon/IconCSS';
 import IconDB from '../icon/IconDB';
+import IconFigma from '../icon/IconFigma';
+import IconFirebase from '../icon/IconFirebase';
 import IconHTML from '../icon/IconHTML';
 import IconJS from '../icon/IconJS';
 import IconNet from '../icon/IconNet';
@@ -28,7 +30,7 @@ const Carrousel = () => {
             {
               breakpoint: 1024,
               settings: {
-                slidesToShow: 7,
+                slidesToShow: 9,
                 slidesToScroll: 1,
               },
             },
@@ -52,8 +54,10 @@ const Carrousel = () => {
     return (
     <Slider {...settings}>
         <IconDB/>
+        <IconFirebase/>
         <IconNet/>
         <IconBoot/>
+        <IconFigma/>
         <IconTail/>
         <IconReact/>
         <IconJS/>

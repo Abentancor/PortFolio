@@ -9,7 +9,7 @@ const DescriptionMain = () => {
 
   return (
     <>
-    <main className='lg:flex grid px-2 md:w-2/3 content-center md:mt-16  mx-auto'>
+    <main className='lg:flex grid px-2 md:w-2/3 content-center md:mt-16  mx-auto '>
         <DescriptionPJ code={language}/>
         <DescriptionText code={language}/>
     </main>
